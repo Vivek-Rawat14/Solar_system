@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="icon" href="./src/LOGO.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="text_title">Solar System</h1>
+
+
+
+    <nav class="planet-nav" >
+        <svg viewBox="0 20 400 400" xmlns="http://www.w3.org/2000/svg" fill="yellow">
+    
+    <!--       <defs> -->
+            <path 
+                id="navPath" 
+                d="M10,200 C30,-28 370,-28 390,200"
+                fill="none" />
+    <!--       </defs> -->
+    
+          <text>
+            <textPath href="#navPath" i startOffset="0"  font-size="10">
+              <tspan onclick="s1()">Sun</tspan>
+              <tspan onclick="s2()">Mercury</tspan>
+              <tspan onclick="s3()">Venus</tspan>
+              <tspan onclick="s4()">Earth</tspan>
+              <tspan onclick="s5()">Moon</tspan>
+              <tspan onclick="s6()">Mars</tspan>
+              <tspan onclick="s7()">Jupiter</tspan>
+              <tspan onclick="s8()">Saturn</tspan>
+              <tspan onclick="s9()">Uranus</tspan>
+              <tspan onclick="s10()">Neptune</tspan>
+              <tspan onclick="s11()">Pluto</tspan>
+            </textPath>
+          </text>
+    
+        </svg>
+      </nav>
+
+
+
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+        
+                <p>Sun</p>
+                <h4>The Sun is the star at the center of the Solar System.</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>274 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>3.955 x 10<sup>30</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet sun">
+            <img src="./src/sun-removebg-preview.png" id="nones">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Mercury</p>
+                <h4>Mercury is the smallest planet in our solar system.</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>3.7 m/s²
+                    </h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>3.285 x 10<sup>23</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet mercury">
+            <img src="./src/mercury1-removebg-preview.png" id="mercury">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Venus</p>
+                <h4>Venus is the second planet from the Sun and is the brightest planet in the solar system</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3> 8.87 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>4.867 x 10<sup>30</sup>kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/venus.jpg" id="venus" >
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Earth</p>
+                <h4>The third planet from the sun, Earth is the only place in the known universe confirmed to host life.
+                </h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>9.807 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>5.972 x 10<sup>24</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/earth-removebg-preview.png" id="earth">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Moon</p>
+                <h4>The Moon is Earth's only natural satellite</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>1.62 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>7.347 x 10<sup>22</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/moon-removebg-preview.png" id="moon">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Mars</p>
+                <h4>Mars is the fourth planet and the furthest terrestrial planet from the Sun.</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>3.71 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>6.39 x 10<sup>23</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/mars-removebg-preview (1).png" id="mars">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Jupiter</p>
+                <h4>Jupiter is the fifth planet from the Sun and the largest in the Solar System.</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>24.79 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>1.898 x 10<sup>27</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/jupiter-removebg-preview.png" id="jupiter">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Saturn</p>
+                <h4>Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter.
+                </h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>10.44 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>5.683 x 10<sup>26</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/saturn-removebg-preview.png" id="saturn">
+        </div>
+
+    </div>
+
+    <div class="planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Uranus</p>
+                <h4>Uranus is the seventh planet from the Sun. It is a gaseous cyan-coloured ice giant.</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3> 8.87 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>8.681 × 10<sup>30</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/uranus-removebg-preview.png" id="uranus">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Neptune</p>
+                <h4>Neptune is the eighth and farthest planet from the Sun. It is the fourth-largest planet in the Solar
+                    System by diameter</h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3>11.15 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>1.024 × 10<sup>30</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/neptun-removebg-preview (1).png" id="neptune">
+        </div>
+
+    </div>
+
+    <div class=" planet_desc">
+        <div class="header">
+            <div class="desc">
+                <p>Pluto</p>
+                <h4>Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. </h4>
+            </div>
+
+            <div class="other_info">
+                <div class="gravity">
+                    <p>Gravity</p>
+                    <h3> 0.62 m/s²</h3>
+                </div>
+
+                <div class="hours">
+                    <p>Mass</p>
+                    <h3>1.309 × 10<sup>30</sup> kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="planet">
+            <img src="./src/pl-removebg-preview.png" id="pluto">
+        </div>
+
+    </div>
+
+</body>
+</html>
